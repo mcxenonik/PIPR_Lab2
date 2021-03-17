@@ -1,0 +1,20 @@
+mkdir -p asdx/zxc/qwer
+ls /etc/*.conf | wc
+
+sudo apt install curl
+curl -o lab2.zip https://galera.ii.pw.edu.pl/~lneumann/pipr/lab2.zip
+unzip lab2.zip -d lab2
+
+ls -lS
+wc -m wersja2.py
+python3 wersja2.py 2373
+
+ssh bandit1@bandit.labs.overthewire.org -p 2220
+logout
+
+file inhere/* | grep "text" | cut -d ':' -f1 | xargs cat
+
+find inhere/ -size 1033c -not -executable | xargs cat
+
+LEVEL6_PASS: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+
